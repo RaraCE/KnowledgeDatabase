@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
   
-  <head>
+<head>
   <title>Knowledge Database</title>
-  </head>
+</head>
 
 <body>
 
