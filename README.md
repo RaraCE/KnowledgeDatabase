@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html>
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 <!--This will set the viewport of your page, which will give the browser instructions on how to control the page's dimensions and scaling.-->
