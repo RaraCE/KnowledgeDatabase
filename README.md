@@ -2,18 +2,18 @@
 <html>
   
 <head>
-  <title>Knowledge Database</title>
+<h1>Knowledge Database</h1>
 </head>
 
 <body>
 
-<h1>Goals</h1>
-<p>To provide a working system that will search only the things I add. With a single word or two, the system will scan the files and find anything relevant.</p>
+<h3>Goals</h3>
+<p>To provide a working system that will search through documents. With a single word or two, the system will scan and extract the correct files.</p>
 
-<h2>Reason</h2>
-<p>To quickly aid in providing knowledge that other search engines fail in.</p>
+<h3>Reason</h3>
+<p>To aid in quickly extracting bits of information rather than be overwhelmed with lots of information as the case with a lot of search engines.</p>
 
-<p><i>This will be specific to things only relevant to science, math, and engineering. </i></p>
+<p><i>This will be specific to things only relevant to science, math, chemistry, biology, genetics, and engineering. </i></p>
 
 </body>
 </html>
