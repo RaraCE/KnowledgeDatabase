@@ -21,13 +21,14 @@ If the max-width property is set to 100%, the image will scale down if it has to
 
 <p><i>This will be specific to things only relevant to science, math, chemistry, biology, genetics, and engineering. </i></p>
 
+<h2>Search Field</h2>
+<p>The <strong>input type="search"</strong> is used for search fields (behaves like a regular text field):</p>
 
-  <body>  
-        <form method="post">  
-    Start Here!  
-            <input type="text" name="fname"/>   
-        </form>  
-    </body>
+<form action="/action_page.php">
+  <label for="gsearch">Search Google:</label>
+  <input type="search" id="gsearch" name="gsearch">
+  <input type="submit" value="Submit">
+</form>
 
 </body>
 </html>
