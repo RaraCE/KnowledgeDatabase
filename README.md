@@ -2,10 +2,10 @@
 <html>
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-<!--This will set the viewport of your page, which will give the browser instructions on how to control the page's dimensions and scaling.>
+<!--This will set the viewport of your page, which will give the browser instructions on how to control the page's dimensions and scaling.-->
 
 <!-- <img src="img_girl.jpg" style="max-width:100%;height:auto;"> 
-If the max-width property is set to 100%, the image will scale down if it has to, but never scale up to be larger than its original size >
+If the max-width property is set to 100%, the image will scale down if it has to, but never scale up to be larger than its original size -->
 
 <head>
 <h1>Knowledge Database</h1>
