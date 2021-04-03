@@ -22,36 +22,7 @@ If the max-width property is set to 100%, the image will scale down if it has to
 
 <p><i>This will be specific to things only relevant to science, math, chemistry, biology, genetics, and engineering. </i></p>
 
-<h3>Search Field</h3>
 
-<!--[if lt IE 7]><html class=ie ie6" lang="en"><![endif]--> 
-<!--[if IE 7 ]><html class=ie ie7" lang="en"><![endif]--> 
-<!--[if IE 8 ]><html class=ie ie8" lang="en"><![endif]--> 
-<!--[if (gte IE 9)|!(IE)]> <html lang="en"><![endif]--> 
-
-<head> 
-<meta charset="utf-8"> 
-<title>Search Results</title> 
-<script src="physics.md"></script>   
-</head> 
-
-<body> 
-  <div>
-  <form action="/action_page.php">
-  <label for="ksearch">Start Here:</label>
-  <input type="search" id="ksearch" name="ksearch">
-  <input type="submit" value="Submit">
-  </form>
-  </div>
-</body> 
-
-<script> 
-jQuery(document).ready(function($){ 
-  $('#ksearch').gsaEmbed(); 
-}); 
-</script>
-
-</body>
 </html>
 
 
