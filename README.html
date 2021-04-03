@@ -36,20 +36,20 @@ If the max-width property is set to 100%, the image will scale down if it has to
 </head> 
 
 <body> 
-  <div id="gsa_search"></div>
+  <div>
+  <form action="/action_page.php">
+  <label for="ksearch">Start Here:</label>
+  <input type="search" id="ksearch" name="ksearch">
+  <input type="submit" value="Submit">
+  </form>
+  </div>
 </body> 
 
 <script> 
 jQuery(document).ready(function($){ 
-  $('#gsa_search').gsaEmbed(); 
+  $('#ksearch').gsaEmbed(); 
 }); 
 </script>
-
-<form action="/action_page.php">
-  <label for="ksearch">Start Here:</label>
-  <input type="search" id="ksearch" name="ksearch">
-  <input type="submit" value="Submit">
-</form>
 
 </body>
 </html>
