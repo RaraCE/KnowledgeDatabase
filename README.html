@@ -24,6 +24,28 @@ If the max-width property is set to 100%, the image will scale down if it has to
 
 <h3>Search Field</h3>
 
+<!--[if lt IE 7]><html class=ie ie6" lang="en"><![endif]--> 
+<!--[if IE 7 ]><html class=ie ie7" lang="en"><![endif]--> 
+<!--[if IE 8 ]><html class=ie ie8" lang="en"><![endif]--> 
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"><![endif]--> 
+
+<head> 
+<meta charset="utf-8"> 
+<title>Search Results</title> 
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script> 
+<script src="//www.med.upenn.edu/js/jquery.gsaEmbed.js"></script>  
+</head> 
+
+<body> 
+  <div id="gsa_search"></div>
+</body> 
+
+<script> 
+jQuery(document).ready(function($){ 
+  $('#gsa_search').gsaEmbed(); 
+}); 
+</script>
+
 <form action="/action_page.php">
   <label for="ksearch">Start Here:</label>
   <input type="search" id="ksearch" name="ksearch">
